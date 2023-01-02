@@ -1,0 +1,555 @@
+
+/*--------------------------------------------------------------
+# Team section
+-----------.---------------------------------------------------*/
+
+.c_team .container {
+  position: relative;
+  z-index: 10;
+}
+
+.c_team .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.c_team  .member .pic {
+  overflow: hidden;
+}
+
+.c_team  .member .member-info {
+  position: absolute;
+  bottom: -80px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 0;
+  color: #433f39;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.c_team  .member h4 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #6c665c;
+  position: relative;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.c_team  .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #ffcf88;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.c_team  .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.c_team .member .social {
+  margin-top: 15px;
+}
+
+.c_team  .member .social a {
+  transition: color 0.3s;
+  color: #7a7368;
+}
+
+.c_team  .member .social a:hover {
+  color: #ffb03b;
+}
+
+.c_team  .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+.c_team .member:hover{
+  transform: scale(1.03);
+}
+
+@media (max-width: 992px) {
+  .c_team  .member {
+    margin-bottom: 110px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c_team  {
+    background-attachment: fixed;
+  }
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# senior Team section
+-----------.---------------------------------------------------*/
+
+   .team {
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    position: relative;
+    padding: 160px 0;
+    z-index: 3;
+  }
+
+
+  /* text*/
+  #team .text{
+    font-size:100px;
+    outline:none;
+    font-weight:900;
+
+  }
+  #team .text p{
+    color:var(--color-primary);
+  }
+
+  @media (min-width: 1034px) {
+    .team:after {
+      position: absolute;
+      content: "";
+      width: 40%;
+      top: 0;
+      bottom: 0;
+    }
+  }
+  
+  .team:before {
+    position: absolute;
+    content: "";
+    background: rgba(11, 13, 15, 0.89);
+    inset: 0;
+  }
+  
+  @media (max-width: 1034px) {
+    .team:before {
+      background: rgba(24, 15, 4, 0.7);
+    }
+  }
+  
+  .team .container {
+    z-index: 1;
+  }
+  
+  @media (min-width: 1365px) {
+    .team {
+      background-attachment: fixed;
+    }
+  }
+  
+  .team h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  
+  .team blockquote {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: var(--font-default);
+    border-left: 2px solid var(--color-primary);
+    margin: 40px 0;
+  }
+  
+  .team .btn-get-started {
+    font-family: var(--font-primary);
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color:black;
+  
+    background: var(--color-white);
+  }
+  
+  .team .btn-get-started:hover {
+    background: rgba(199, 121, 4, 0.8);
+  }
+  
+  .team .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+  }
+  
+  .team .btn-watch-video i {
+    color:white;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+  }
+  
+  .team .btn-watch-video:hover {
+    color: #fff;
+  }
+  
+  .team .btn-watch-video:hover i {
+    color: #eb710e;
+  }
+  
+  @media (max-width: 640px) {
+    .team h2 {
+      font-size: 36px;
+      line-height: 1;
+    }
+  
+    .team .btn-get-started,
+    .team .btn-watch-video {
+      font-size: 13px;
+    }
+  }
+  
+/*core team members*/
+
+  
+.team_member {
+
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.our-team{
+  transition:all 0.3s;
+  border:3px solid var(--color-primary);
+
+}
+.team-content:hover{
+  color:#e89106;
+
+}
+.our-team:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color:#e89106;
+}
+.single_team_content{
+padding:45px;
+margin-top:60px;
+}
+.single_team_content h1 {
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 60px;
+}
+
+.our-team {
+	margin-bottom: 39px;
+  width:89
+	box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
+
+}
+.our-team .team_img{
+    position: relative;
+    overflow: hidden;
+}
+.our-team .team_img:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image:rgb(156, 151, 151);
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .team_img:after{
+    bottom: 0;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    border-radius:50%;
+    width: 70%;
+  }
+/* 
+.our-team .social{
+    padding: 0 0 18px 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: -130%;
+    right: 10px;
+    background: #181716;
+    border-radius: 0 0 20px 20px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .social{
+    top: 0;
+}
+.our-team .social li a{
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    color: #f7900a;
+}
+.our-team:hover .social li a:hover{
+    color: #fff;
+} */
+.our-team .team-content{
+    padding: 20px 0;
+    background: #282A3A;
+    color:white;
+}
+
+.our-team .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f3efe8;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    position: relative;
+}
+.our-team .title:before{
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #ffaa17;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    margin-right: 9px;
+    transition-duration: 0.25s;
+}
+.our-team .title:after{
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #ffaa17;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: 9px;
+    transition-duration: 0.25s;
+}
+.our-team:hover .title:before,
+.our-team:hover .title:after{
+    width: 50px;
+}
+.our-team .post{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.our-team .post:before{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ffaa17;
+    margin: 0 auto;
+    position: relative;
+    top: -13px;
+}
+.our-team   .title:hover{
+  color:orange;
+}
+.our-team .post{
+  color:orange;
+}
+@media only screen and (min-width: 990px){
+    .our-team{ margin-bottom: 30px; 
+
+}
+}
+@media only screen and (min-width:500px){
+
+}
+/*senior core team*/
+
+/* .tab {
+  overflow: hidden;
+  display:flex;
+  justify-content:center;
+  outline:none;
+  display:relative;
+  border:1px solid rgb(146, 142, 142);
+  margin-left:20%;
+  margin-right:20%;
+}
+
+/* Style the buttons inside the tab */
+/* .tab button {
+  color:orange;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background:transparent;
+  padding:10px 10px;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-left:30px; 
+  transition:0.3s ease-in-out;
+  width:10%;
+
+} */
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+
+}
+
+/* Create an active/current tablink class */
+/* .tab button.active {
+  background-color:var(--color-primary);
+  color:white;
+  font-size:800;
+
+}  */
+.nav-item{
+  overflow:hidden;
+  font-weight:800;
+  transition:0.3s all ease-in-out;
+  cursor:pointer;
+  /* background-color:var(--color-primary); */
+  /* color:white; */
+ 
+}
+
+
+
+
+
+/*Developers*/
+.webteam {
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  width:80%;
+  
+}
+
+.webteam .pic {
+  background: #f6931e;
+  transition: all 0.3s ease 0s;
+  widht
+}
+
+.webteam:hover .pic {
+  padding: 10px;
+  border-radius: 10px;
+  transform: scale(0.5) translateY(-30%);
+}
+
+.webteam .pic img {
+  width: 100%;
+  height: auto;
+}
+
+.webteam .team-content {
+  width: 100%;
+  padding: 7px 15px;
+  background: #f6931e;
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.webteam:hover .team-content {
+  opacity: 1;
+  bottom: -10px;
+}
+
+.webteam .title {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+
+.webteam .post {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  font-style: italic;
+  text-transform: capitalize;
+  margin: 0 0 5px 0;
+}
+
+.webteam .social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: all 0.35s ease 0s;
+}
+
+.webteam .social li {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.webteam .social li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 15px 0 15px 0;
+  font-size: 20px;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  transition: all 0.35s ease 0s;
+}
+
+.webteam .social li a:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0a0a0a;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.webteam .social li a:hover:before {
+  left: 0;
+}
+
+@media only screen and (max-width: 990px) {
+  .webteam {
+      margin-bottom: 30px;
+  }
+}
+
+
+
+
+
